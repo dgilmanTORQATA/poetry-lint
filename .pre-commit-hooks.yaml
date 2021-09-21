@@ -1,0 +1,6 @@
+- id: poetry-lint
+  name: poetry-lint
+  entry: poetry run sync-requirements
+  language: python
+  files: poetry.lock
+  pass_filenames: false
