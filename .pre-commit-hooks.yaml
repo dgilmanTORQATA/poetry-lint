@@ -1,5 +1,5 @@
 - id: poetry-lint
   name: poetry-lint
-  entry: poetry run sync-requirements
+  entry: poetrycd
   language: python
   files: poetry.lock
